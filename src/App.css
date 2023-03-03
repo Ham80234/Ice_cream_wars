@@ -1,0 +1,10 @@
+.App main {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1250px) {
+    .App main{
+      flex-direction: column;
+    }
+}
